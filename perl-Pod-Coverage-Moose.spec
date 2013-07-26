@@ -1,15 +1,15 @@
 %define upstream_name    Pod-Coverage-Moose
-%define upstream_version 0.02
+%define upstream_version 0.04
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.04
+Release:	1
 
 Summary:	L<Pod::Coverage> extension for L<Moose>
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Coverage-Moose-0.04.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -63,4 +63,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Wed Aug 25 2010 Jérôme Quelin <jquelin@mandriva.org> 0.20.0-1mdv2011.0
 + Revision: 573145
 - import perl-Pod-Coverage-Moose
+
 
