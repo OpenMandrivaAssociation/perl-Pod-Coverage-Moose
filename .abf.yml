@@ -1,4 +1,5 @@
 removed_sources:
   Pod-Coverage-Moose-0.02.tar.gz: d95f93a66b79b57b861aa28be05467177e4c5720
-sources:
   Pod-Coverage-Moose-0.04.tar.gz: d588c030cc31867042eb806573c094377839e9f7
+sources:
+  Pod-Coverage-Moose-0.05.tar.gz: 11fe8f997fe18957c47c278bde2f4c89a3969efb
