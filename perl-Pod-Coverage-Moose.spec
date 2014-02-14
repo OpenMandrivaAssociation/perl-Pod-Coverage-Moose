@@ -12,6 +12,8 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Coverage-Moose-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+BuildRequires: perl(namespace::autoclean)
+BuildRequires: perl(Test::Requires)
 BuildRequires:	perl(Carp)
 BuildRequires:	perl(Class::MOP)
 BuildRequires:	perl(ExtUtils::MakeMaker)
