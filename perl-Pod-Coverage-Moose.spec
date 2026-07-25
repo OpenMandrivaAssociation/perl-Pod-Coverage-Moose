@@ -1,15 +1,15 @@
 %define upstream_name    Pod-Coverage-Moose
-%define upstream_version 0.05
+%define upstream_version 0.08
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	L<Pod::Coverage> extension for L<Moose>
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Coverage-Moose-%{upstream_version}.tar.gz
+Url:		https://github.com/moose/Pod-Coverage-Moose
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Pod-Coverage-Moose-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
